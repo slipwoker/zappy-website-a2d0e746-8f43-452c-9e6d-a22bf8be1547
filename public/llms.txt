@@ -1,53 +1,43 @@
-# ההופעות של יובל — Generative Engine Optimization Map
-
-> A בידור ותרבות business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### Home
-https://-a2d0e746.zappy5.app
+https://example.com
 
 ### Events
-https://-a2d0e746.zappy5.app/events
+https://example.com/events
 
 ### Event Detail
-https://-a2d0e746.zappy5.app/event
+https://example.com/event
 
 ### Contact
-https://-a2d0e746.zappy5.app/contact
+https://example.com/contact
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-a2d0e746.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-a2d0e746.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-a2d0e746.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About ההופעות של יובל
-ההופעות של יובל is a business in the בידור ותרבות industry.
-
-## Target Audience
-חובבי מוסיקה מז'אנרים שונים
-
-## Industry
-בידור ותרבות
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://-a2d0e746.zappy5.app/sitemap.xml
-- **Robots.txt**: https://-a2d0e746.zappy5.app/robots.txt
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
