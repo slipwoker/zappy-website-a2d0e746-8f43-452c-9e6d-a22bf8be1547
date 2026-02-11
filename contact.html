@@ -26,7 +26,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -295,7 +295,7 @@
   <div class="nav-container">
     <div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/business-logo.webp" alt="ההופעות של יובל" class="logo" />
+        <img src="/assets/business-logo.webp" alt="ההופעות של יובל" class="logo">
       </a>
     </div>
     
@@ -311,16 +311,14 @@
     <section class="contact-page-intro-section" data-layout-spec="Contact-page-intro">
   <div class="contact-page-intro-container">
     <h1 class="contact-page-intro-title">צור קשר.</h1>
-    <p class="contact-page-intro-description">שלח הודעה לקבלת מידע על כרטיסים, המלצות להופעות או שאלות על מקומות. נחזור אליך עם פרטים ברורים ומעשיים.</p>
+    <p class="contact-page-intro-description">לקבלת&nbsp;</p>
     <div class="contact-page-intro-divider"></div>
   </div>
 </section>
 
 <section class="contact-contact-cards-section" data-layout-spec="Contact-contact-cards">
   <div class="contact-cards-container">
-    <div class="contact-cards-grid">
-      <!-- Card 1: Email -->
-      <div class="contact-card">
+    <div class="contact-cards-grid zappy-preserve-css-grid" style="display: grid; --zappy-grid-cols: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);" data-original-item-width="379" data-original-gap="32px"><div class="contact-card">
         <div class="card-accent-line"></div>
         <div class="card-icon-wrapper">
           <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -331,10 +329,7 @@
         <h2 class="card-title">דוא"ל</h2>
         <p class="card-description">מתאים לשאלות מפורטות והמלצות אישיות על הופעות חיות בתל אביב.</p>
         <div class="card-contact-info">yuval@tsukmusic.com</div>
-      </div>
-
-      <!-- Card 2: Phone -->
-      <div class="contact-card">
+      </div><div class="contact-card">
         <div class="card-accent-line"></div>
         <div class="card-icon-wrapper">
           <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -344,24 +339,7 @@
         <h2 class="card-title">טלפון</h2>
         <p class="card-description">מתאים לאישורים מהירים וצרכים דחופים בנוגע להופעות ג'אז ומוסיקה קלאסית במרכז.</p>
         <div class="card-contact-info">054-4771774</div>
-      </div>
-
-      <!-- Card 3: Address -->
-      <div class="contact-card" data-element-id="element-ai-1770798100837-a7x3m2" data-element-type="card">
-        <div class="card-accent-line"></div>
-        <div class="card-icon-wrapper">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-            <circle cx="12" cy="10" r="3"></circle>
-          </svg>
-        </div>
-        <h2 class="card-title">כתובת</h2>
-        <p class="card-description">מיקום המשרד שלנו לפגישות אישיות ושאלות על הופעות באזור המרכז.</p>
-        <div class="card-contact-info">GiVat Shmuel, 5405220</div>
-      </div>
-
-      <!-- Card 4: Hours -->
-      <div class="contact-card">
+      </div><div class="contact-card">
         <div class="card-accent-line"></div>
         <div class="card-icon-wrapper">
           <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -372,17 +350,16 @@
         <h2 class="card-title">שעות פעילות</h2>
         <p class="card-description">זמני תגובה ושעות זמינות לשאלות על מה עושים הערב בתל אביב.</p>
         <div class="card-contact-info">ראשון–חמישי: 10:00–18:00<br>שישי: 10:00–14:00</div>
-      </div>
-    </div>
+      </div></div>
   </div>
 </section>
 
-<section class="contact-contact-form-section" data-layout-spec="Contact-contact-form">
+<section class="contact-contact-form-section" data-layout-spec="Contact-contact-form" id="zappy-section-2">
   <div class="contact-contact-form-container">
     <div class="contact-contact-form-content">
       <div class="contact-contact-form-text">
         <h2>שלחו לנו הודעה</h2>
-        <p>שתפו אותנו באירוע שמעניין אתכם ובכל העדפה (תאריך, ז'אנר, מקום)</p>
+        <p style="">הרשמו כאן לקבלת ניוזלטר עם כל ההופעות והנחות מיוחדות למקבלי הניוזלטר השבועי</p>
       </div>
       <form class="contact-form">
         <div class="contact-contact-form-field">
@@ -401,11 +378,11 @@
           <label for="contact-message">הודעה</label>
           <textarea id="contact-message" name="message" rows="5" required=""></textarea>
         </div>
-        <button type="submit" class="contact-contact-form-submit">שלח</button>
+        <button type="submit" class="contact-contact-form-submit btn btn-primary" data-element-type="button" data-element-id="btn-1770799394983-ukrajb1ey" data-native-element="true" style="outline: none; color: rgb(255, 255, 255) !important; border-color: rgb(24, 80, 230) !important; background-color: rgb(24, 80, 230) !important; background-image: none !important;">שלח</button>
       </form>
     </div>
     <div class="contact-contact-form-image-wrapper">
-      <img data-placeholder="contact-contact-form-image-1" data-context="Close-up photo of an elegant printed concert program resting on a theater seat, soft warm lighting from stage lights creating a cozy atmosphere, shallow depth of field, cultural and refined ambiance for a music entertainment business" width="600" height="800" src="/assets/site-contact-contact-form-image-1.webp" alt="תוכנייה מודפסת על מושב באולם הופעות">
+      <div data-zappy-zoom-wrapper="true" data-element-id="img-1770799394986-pf0a4nn72" data-element-type="image" data-zappy-zoom-wrapper-width="569px" data-zappy-zoom-wrapper-height="400px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" style="position: relative !important; overflow: hidden !important; width: 569px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 400px !important; display: block !important;"><img data-placeholder="contact-contact-form-image-1" data-context="Close-up photo of an elegant printed concert program resting on a theater seat, soft warm lighting from stage lights creating a cozy atmosphere, shallow depth of field, cultural and refined ambiance for a music entertainment business" width="600" height="800" src="/assets/business-general-service-upload-1770800117940.webp" alt="תוכנייה מודפסת על מושב באולם הופעות" data-element-type="image" data-element-id="img-1770799394986-pf0a4nn72" class="zappy-editable-image" data-resize-handler-attached="true" data-original-position="static" style="position: absolute !important; object-position: 50% 50% !important; object-fit: cover; width: 110% !important; height: 157.486% !important; max-width: none !important; display: block !important; border-radius: 8px; margin: 0px !important; left: -5.5% !important; top: -20.6948% !important; max-height: none !important;" data-zappy-zoom="1" data-zappy-original-width="568.857177734375" data-zappy-original-height="400.0000305175781"></div>
     </div>
   </div>
 </section>
@@ -445,7 +422,7 @@
 
 <section class="contact-closing-cta-section" data-layout-spec="Contact-closing-cta">
   <div class="contact-closing-cta-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,60 L0,35 Q100,28 200,32 T400,30 Q500,34 600,28 T800,32 Q900,30 1000,34 T1200,30 L1200,60 Z" fill="var(--bg-dark)"></path>
     </svg>
   </div>
@@ -460,16 +437,26 @@
 </section>
   </main>
   
-  <!DOCTYPE html>
-<html lang="he" dir="rtl">
-<head>
+  
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ההופעות של יובל</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
-<footer class="site-footer"><div class="footer-container"><div class="footer-grid"><div class="footer-section footer-about"><img src="/assets/business-logo.webp" alt="ההופעות של יובל" class="logo" /><p class="footer-description">המקום שלכם לחוויות בידור ותרבות בלתי נשכחות. הצטרפו אלינו להופעות מרגשות ואירועים מיוחדים.</p><div class="social-links"><a href="https://facebook.com/ytsuk" aria-label="Facebook" class="social-icon"><i class="fab fa-facebook-f"></i></a><a href="https://instagram.com/yuval_tsuk" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a><a href="https://wa.me/972544771774" aria-label="WhatsApp" class="social-icon"><i class="fab fa-whatsapp"></i></a><a href="https://youtube.com/@yuval_tsuk" aria-label="YouTube" class="social-icon" data-element-id="element-ai-1770798090497-yt9k2m" data-element-type="link"><i class="fab fa-youtube"></i></a><a href="https://tiktok.com/@yuvaltsuk8" aria-label="TikTok" class="social-icon" data-element-id="element-ai-1770798090497-tt5x8p" data-element-type="link"><i class="fab fa-tiktok"></i></a></div></div><div class="footer-section footer-links"><h3 class="footer-title">קישורים מהירים</h3><ul class="footer-menu"><li><a href="/events">אירועים</a></li><li><a href="/event">פרטי אירוע</a></li><li><a href="/contact">צור קשר</a></li></ul></div><div class="footer-section footer-contact"><h3 class="footer-title">יצירת קשר</h3><ul class="contact-list"><li><i class="fas fa-envelope"></i><a href="mailto:yuval@tsukmusic.com">yuval@tsukmusic.com</a></li><li><i class="fas fa-phone"></i><a href="tel:054-4771774">054-4771774</a></li><li><a href="/"><i class="fas fa-map-marker-alt"></i><span>כתובת החברה, GiVat Shmuel, 5405220, ישראל</span></a></li></ul></div></div><div class="footer-bottom"><div class="footer-bottom-content"><div class="legal-links"><a href="/privacy">מדיניות פרטיות</a><span class="separator">|</span><a href="/terms">תנאים והגבלות</a><span class="separator">|</span><a href="/accessibility">הצהרת נגישות</a></div><p class="copyright">© 2026 ההופעות של יובל. כל הזכויות שמורות.</p><a href="https://zappy5.com" target="_blank" class="zappy-attribution">Generated by Zappy</a></div></div></div></footer>
+
+
+<footer class="site-footer"><div class="footer-container"><div class="footer-grid"><div class="footer-section footer-about"><img src="/assets/business-logo.webp" alt="ההופעות של יובל" class="logo"><p class="footer-description">המקום שלכם לחוויות בידור ותרבות בלתי נשכחות. הצטרפו אלינו להופעות מרגשות ואירועים מיוחדים.</p><div class="social-links"><a href="https://facebook.com/ytsuk" aria-label="Facebook" class="social-icon"><i class="fab fa-facebook-f"></i></a><a href="https://instagram.com/yuval_tsuk" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a><a href="https://wa.me/972544771774" aria-label="WhatsApp" class="social-icon"><i class="fab fa-whatsapp"></i></a><a href="https://youtube.com/@yuval_tsuk" aria-label="YouTube" class="social-icon" data-element-id="element-ai-1770798090497-yt9k2m" data-element-type="link"><i class="fab fa-youtube"></i></a><a href="https://tiktok.com/@yuvaltsuk8" aria-label="TikTok" class="social-icon" data-element-id="element-ai-1770798090497-tt5x8p" data-element-type="link"><i class="fab fa-tiktok"></i></a></div></div><div class="footer-section footer-links"><h3 class="footer-title">קישורים מהירים</h3><ul class="footer-menu"><li><a href="/events">אירועים</a></li><li><a href="/event">פרטי אירוע</a></li><li><a href="/contact">צור קשר</a></li></ul></div><div class="footer-section footer-contact"><h3 class="footer-title">יצירת קשר</h3><ul class="contact-list"><li><i class="fas fa-envelope"></i><a href="mailto:yuval@tsukmusic.com">yuval@tsukmusic.com</a></li><li><i class="fas fa-phone"></i><a href="tel:054-4771774">054-4771774</a></li><li><a href="/"><i class="fas fa-map-marker-alt"></i><span>כתובת החברה, GiVat Shmuel, 5405220, ישראל</span></a></li></ul></div></div><div class="footer-bottom"><div class="footer-bottom-content"><div class="legal-links"><a href="/privacy">מדיניות פרטיות</a><span class="separator">|</span><a href="/terms">תנאים והגבלות</a><span class="separator">|</span><a href="/accessibility">הצהרת נגישות</a></div><p class="copyright">© 2026 ההופעות של יובל. כל הזכויות שמורות.</p><a href="https://zappy5.com" target="_blank" class="zappy-attribution">Generated by Zappy</a></div></div></div></footer>
+
+
+  
+  <a href="https://wa.me/972544771774" class="whatsapp-float" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  
+  <script src="/script.js"></script>
+
+    <div data-integration="accessibility:toolbar"></div>
 
     <script id="zappy-mobile-submenu-script">
     (function() {
@@ -521,14 +508,4 @@
       }, 500);
     })();
     </script>
-</body>
-</html>
-  
-  <a href="https://wa.me/972544771774" class="whatsapp-float" aria-label="WhatsApp">
-    <i class="fab fa-whatsapp"></i>
-  </a>
-  
-  <script src="/script.js"></script>
-
-    <div data-integration="accessibility:toolbar"></div>
 </body></html>
