@@ -1,6 +1,4 @@
-# ההופעות של יובל — Generative Engine Optimization Map
-
-> A בידור ותרבות business.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -17,6 +15,10 @@ https://yuval-shows.zappy5.app/event
 
 ### Contact
 https://yuval-shows.zappy5.app/contact
+
+### Thank You | ההופעות של יובל
+https://yuval-shows.zappy5.app/thank-you
+ההופעות של יובל - Thank You | ההופעות של יובל
 
 ## Legal & Policy
 
@@ -36,15 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About ההופעות של יובל
-ההופעות של יובל is a business in the בידור ותרבות industry.
-
-## Target Audience
-חובבי מוסיקה מז'אנרים שונים
-
-## Industry
-בידור ותרבות
-
+## About Business
 ---
 
 # Additional Resources

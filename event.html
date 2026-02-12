@@ -26,7 +26,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -295,11 +295,11 @@
   <div class="nav-container">
     <div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/business-logo.webp" alt="ההופעות של יובל" class="logo" />
+        <img src="/assets/business-logo.webp" alt="ההופעות של יובל" class="logo">
       </a>
     </div>
     
-    <ul class="nav-menu" id="navMenu"><li><a href="/events">אירועים</a></li><li><a href="/event">פרטי אירוע</a></li></ul>
+    <ul class="nav-menu" id="navMenu"><li><a href="/" data-i18n="nav-home">Home</a></li><li><a href="/events">אירועים</a></li><li><a href="/event">פרטי אירוע</a></li></ul>
     
     <div class="nav-cta-container">
       <a href="/contact" class="nav-cta-btn">צור קשר</a>
@@ -308,159 +308,34 @@
 </nav>
   
   <main>
-    <section class="event-detail-hero-section" data-layout-spec="Event Detail-hero" data-hero-type="fullscreen-card">
-  <div class="event-detail-hero-bg-wrapper">
-    <img data-placeholder="event-detail-hero-bg" data-context="Wide-angle shot of a live concert performance on stage with warm, clean stage lighting (golden and white spotlights), showing musicians performing for an audience, professional concert photography, vibrant yet controlled colors, modern concert hall atmosphere, focus on the performers under bright stage lights, Hebrew cultural music event setting" data-preserve-bg="0" width="1920" height="800" src="/assets/site-event-detail-hero-bg.webp" alt="הופעה חיה על הבמה באור חם ומקצועי" class="event-detail-hero-bg-image">
-    <div class="event-detail-hero-scrim"></div>
-  </div>
-  
-  <div class="event-detail-hero-content-wrapper">
-    <div class="event-detail-hero-content-container">
-      <div class="event-detail-hero-card">
-        <h1 class="event-detail-hero-title">הופעת ג'אז מיוחדת בלב העיר</h1>
-        <h3 class="event-detail-hero-subtitle">ערב אינטימי עם מיטב נגני הג'אז המקומיים, מוזיקה מקורית ועיבודים ייחודיים שמשלבים מזרח ומערב. חוויה מוזיקלית בלתי נשכחת למבינים ולמתחילים כאחד.</h3>
-        <a href="/contact" class="event-detail-hero-cta">קבלו מידע על כרטיסים</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="event-detail-event-details-section" data-layout-spec="Event Detail-event-details">
-  <div class="event-detail-event-details-container">
-    <div class="event-detail-event-details-grid">
-      <!-- Details Column -->
-      <div class="event-detail-event-details-content">
-        <h2 class="event-detail-event-details-title">במבט חטוף</h2>
-        
-        <div class="event-detail-event-details-info-grid">
-          <div class="event-detail-event-details-info-row">
-            <p class="event-detail-event-details-label">תאריך</p>
-            <p class="event-detail-event-details-value">15 במאי, 2024</p>
-          </div>
-          <div class="event-detail-event-details-divider"></div>
-          
-          <div class="event-detail-event-details-info-row">
-            <p class="event-detail-event-details-label">שעה</p>
-            <p class="event-detail-event-details-value">20:30</p>
-          </div>
-          <div class="event-detail-event-details-divider"></div>
-          
-          <div class="event-detail-event-details-info-row">
-            <p class="event-detail-event-details-label">מיקום</p>
-            <p class="event-detail-event-details-value">היכל התרבות, תל אביב</p>
-          </div>
-          <div class="event-detail-event-details-divider"></div>
-          
-          <div class="event-detail-event-details-info-row">
-            <p class="event-detail-event-details-label">משך</p>
-            <p class="event-detail-event-details-value">שעתיים (כולל הפסקה)</p>
-          </div>
-          <div class="event-detail-event-details-divider"></div>
-          
-          <div class="event-detail-event-details-info-row">
-            <p class="event-detail-event-details-label">הערות</p>
-            <p class="event-detail-event-details-value">נגישות מלאה לכיסאות גלגלים • הפסקה של 15 דקות • מומלץ להגיע בלבוש אלגנטי-נינוח</p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Media Column -->
-      <div class="event-detail-event-details-media">
-        <div class="event-detail-event-details-image-wrapper">
-          <div class="event-detail-event-details-backplate"></div>
-          <img data-placeholder="event-detail-event-details-image-1" data-context="Professional concert poster for a live music performance in Tel Aviv featuring elegant typography and artistic photography of a musician on stage with dramatic lighting, suitable for a jazz or classical music event, high-quality print design with sophisticated color palette" width="600" height="800" src="/assets/site-event-detail-event-details-image-1.webp" alt="פוסטר ההופעה - הופעות חיות בתל אביב" class="event-detail-event-details-poster">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="event-detail-program-section" data-layout-spec="Event Detail-program">
-  <div class="event-detail-program-container">
-    <h2 class="event-detail-program-title">תוכנית הערב</h2>
-    <div class="event-detail-program-timeline">
-      <div class="event-detail-program-timeline-item">
-        <div class="event-detail-program-timeline-marker"></div>
-        <div class="event-detail-program-timeline-content">
-          <h3 class="event-detail-program-segment-title">פתיחה</h3>
-          <p class="event-detail-program-segment-description">קבלת פנים מוזיקלית קלילה המכוונת את הקהל לאווירת הערב ומכינה את הבמה לביצועים המרכזיים.</p>
-        </div>
-      </div>
-      <div class="event-detail-program-timeline-item">
-        <div class="event-detail-program-timeline-marker"></div>
-        <div class="event-detail-program-timeline-content">
-          <h3 class="event-detail-program-segment-title">יצירה ראשית</h3>
-          <p class="event-detail-program-segment-description">ביצוע מלא של היצירה המרכזית בערב, כולל קטעים קלאסיים ומודרניים המשלבים וירטואוזיות עם רגש עמוק.</p>
-        </div>
-      </div>
-      <div class="event-detail-program-timeline-item">
-        <div class="event-detail-program-timeline-marker"></div>
-        <div class="event-detail-program-timeline-content">
-          <h3 class="event-detail-program-segment-title">הפסקה</h3>
-          <p class="event-detail-program-segment-description">הפסקה קצרה של 15 דקות לרענון, במהלכה הקהל יכול לשוחח וליהנות ממשקאות באולם.</p>
-        </div>
-      </div>
-      <div class="event-detail-program-timeline-item">
-        <div class="event-detail-program-timeline-marker"></div>
-        <div class="event-detail-program-timeline-content">
-          <h3 class="event-detail-program-segment-title">חלק שני</h3>
-          <p class="event-detail-program-segment-description">המשך התוכנית עם יצירות נוספות המדגישות את הגיוון המוזיקלי והכישרון האמנותי של המבצעים.</p>
-        </div>
-      </div>
-      <div class="event-detail-program-timeline-item">
-        <div class="event-detail-program-timeline-marker"></div>
-        <div class="event-detail-program-timeline-content">
-          <h3 class="event-detail-program-segment-title">סיום</h3>
-          <p class="event-detail-program-segment-description">קטע סיום מרגש ומלא אנרגיה שמסכם את הערב ומשאיר את הקהל עם חוויה בלתי נשכחת.</p>
-        </div>
-      </div>
-      <div class="event-detail-program-timeline-item">
-        <div class="event-detail-program-timeline-marker"></div>
-        <div class="event-detail-program-timeline-content">
-          <h3 class="event-detail-program-segment-title">אנקור (במידת הצורך)</h3>
-          <p class="event-detail-program-segment-description">ביצוע נוסף קצר בהתאם לתגובת הקהל ולהתלהבות, המוסיף נופך מיוחד לסיום ההופעה.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="event-detail-artists-section" data-layout-spec="Event Detail-artists">
-  <div class="event-detail-artists-container">
-    <div class="event-detail-artists-image-column">
-      <div class="event-detail-artists-image-wrapper">
-        <img data-placeholder="event-detail-artists-image-1" data-context="Professional group photo of a classical music ensemble or portrait of an orchestra conductor in formal concert attire, bright lighting, clean studio background, elegant and refined aesthetic for a cultural performance venue" width="600" height="800" src="/assets/site-event-detail-artists-image-1.webp" alt="תמונת האמנים והמנצח">
-      </div>
-    </div>
     
-    <div class="event-detail-artists-content-column">
-      <h2 class="event-detail-artists-title">האמנים</h2>
-      <p class="event-detail-artists-intro">הצוות האמנותי המוביל את ההופעה מורכב מאמנים מובילים בתחומם, כל אחד תורם את המומחיות והחזון האמנותי שלו ליצירת חוויה מוזיקלית בלתי נשכחת.</p>
-      
-      <div class="event-detail-artists-bio-block">
-        <h3 class="event-detail-artists-bio-title">המנצח</h3>
-        <p class="event-detail-artists-bio-text">מנצח מוערך בעל ניסיון בינלאומי, מוביל תזמורות מובילות ברחבי העולם ומביא פרשנות ייחודית ליצירות קלאסיות ועכשוויות. גישתו המדויקת והרגישה יוצרת איזון מושלם בין הטכניקה למוזיקליות.</p>
-      </div>
-      
-      <div class="event-detail-artists-bio-block">
-        <h3 class="event-detail-artists-bio-title">הסוליסט</h3>
-        <p class="event-detail-artists-bio-text">זוכה פרסים בינלאומיים, הסוליסט מופיע בהיכלות התרבות המובילות בעולם ומביא ביצוע וירטואוזי מרגש. הטכניקה המושלמת והביטוי הרגשי שלו הופכים כל הופעה לחוויה בלתי נשכחת.</p>
-      </div>
-      
-      <div class="event-detail-artists-bio-block">
-        <h3 class="event-detail-artists-bio-title">ההרכב</h3>
-        <p class="event-detail-artists-bio-text">הרכב מוזיקלי מובחר המורכב ממוזיקאים מנוסים ומוכשרים, המביאים יחד שנות ניסיון והבנה מעמיקה של המוזיקה. איכות הנגינה והאחדות המוזיקלית יוצרות צליל עשיר ומלא רגש.</p>
-      </div>
-    </div>
+
+
+
+
+<section id="layout-1770899492040" class="layout-section" data-zappy-component="true" style="width: 100%; padding: 60px 0; direction: rtl;" data-component-id="image-grid-4">
+  <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 1.5rem;">
+  <h2 style="font-size: 32px; font-weight: 700; color: #1F2937; margin-bottom: 40px; text-align: center; font-family: Cormorant Garamond, Playfair Display, Libre Baskerville, serif;">גלריית תמונות מההופעות</h2>
+  <div class="four-image-grid zappy-preserve-css-grid" style="display: grid; grid-template-columns: 271.5px 271.5px 271.5px 271.5px; gap: 20px;" id="zappy-auto-grid-1770899645852-fpuedj" data-zappy-auto-grid="true" data-original-item-width="272" data-original-gap="20px">
+    <div data-zappy-media-grid-item="true" class="zappy-grid-item-media-only" data-grid-item-index="0" style="position: relative; display: block;"><div data-zappy-zoom-wrapper="true" data-element-id="img-1770899645843-bgako6aam" data-element-type="image" data-zappy-zoom-wrapper-width="272px" data-zappy-zoom-wrapper-height="226px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" style="position: relative !important; overflow: hidden !important; width: 272px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 226px !important; display: block !important;"><img data-placeholder="layout-image-1770899492040-3qk535dhn" data-context="תיאור תמונה 1" data-zappy-editable-image="true" src="/assets/business-general-service-upload-1770899764317.webp" alt="תיאור תמונה 1" style="width: 181.948% !important; height: 100% !important; display: block !important; border-radius: 8px; object-fit: cover !important; position: absolute !important; object-position: 80% 43%; max-width: none !important; margin: 0px !important; left: -65.5585% !important; top: 0% !important; max-height: none !important" class="layout-placeholder-image zappy-editable-image" data-element-type="image" data-element-id="img-1770899645843-bgako6aam" data-resize-handler-attached="true" data-original-position="static" data-zappy-original-width="271.5" data-zappy-original-height="226.25001525878906" data-zappy-zoom="1"></div></div>
+    <div data-zappy-media-grid-item="true" class="zappy-grid-item-media-only" data-grid-item-index="1" style="position: relative; display: block;"><img data-placeholder="layout-image-1770899492040-rffuoyzr0" data-context="תיאור תמונה 2" data-zappy-editable-image="true" src="/assets/business-general-service-upload-1770899801291.webp" alt="תיאור תמונה 2" style="width: 100%; height: auto; display: block; border-radius: 8px; object-fit: cover !important; position: relative; object-position: 50% 50% !important; max-width: 100%" class="layout-placeholder-image zappy-editable-image" data-element-type="image" data-element-id="img-1770899645843-nyo41t5w3" data-resize-handler-attached="true" data-original-position="static" data-zappy-original-width="271.5" data-zappy-original-height="226.25001525878906" data-zappy-zoom="1"></div>
+    <div data-zappy-media-grid-item="true" class="zappy-grid-item-media-only" data-grid-item-index="2" style="position: relative; display: block;"><img data-placeholder="layout-image-1770899492040-wc5ix8qz4" data-context="תיאור תמונה 3" data-zappy-editable-image="true" src="/assets/business-general-service-upload-1770899828361.webp" alt="תיאור תמונה 3" style="width: 100%; height: auto; display: block; border-radius: 8px; object-fit: cover !important; position: relative; object-position: 50% 50% !important; max-width: 100%" class="layout-placeholder-image zappy-editable-image" data-element-type="image" data-element-id="img-1770899645843-qyfom96zj" data-resize-handler-attached="true" data-original-position="static" data-zappy-original-width="271.5" data-zappy-original-height="226.25001525878906" data-zappy-zoom="1"></div>
+    <div data-zappy-media-grid-item="true" class="zappy-grid-item-media-only" data-grid-item-index="3" style="position: relative; display: block;"><img data-placeholder="layout-image-1770899492040-qx6xte80k" data-context="תיאור תמונה 4" data-zappy-editable-image="true" src="/assets/business-general-service-upload-1770899911903.webp" alt="תיאור תמונה 4" style="width: 100%; height: auto; display: block; border-radius: 8px; object-fit: cover !important; position: relative; object-position: 50% 50% !important; max-width: 100%" class="layout-placeholder-image zappy-editable-image" data-element-type="image" data-element-id="img-1770899645843-hdiyrot3t" data-resize-handler-attached="true" data-original-position="static" data-zappy-original-width="271.5" data-zappy-original-height="226.25001525878906" data-zappy-zoom="1"></div>
   </div>
-</section>
+</div></section>
+
+
+
+
+
+
 
 <section class="event-detail-cta-section" data-layout-spec="Event Detail-cta">
   <div class="event-detail-cta-divider-top"></div>
   <div class="event-detail-cta-container">
     <div class="event-detail-cta-content">
-      <h2 class="event-detail-cta-heading">מתעניינים בהופעה זו?</h2>
-      <p class="event-detail-cta-text">צרו קשר לקבלת מידע על כרטיסים ופרטים מעשיים. אם אתם עדיין מתלבטים, עיינו במלוא רשימת ההופעות שלנו.</p>
+      
+      
       <div class="event-detail-cta-buttons">
         <a href="/contact" class="event-detail-cta-btn event-detail-cta-btn-primary">צור קשר למידע על כרטיסים</a>
         <a href="/events" class="event-detail-cta-btn event-detail-cta-btn-secondary">חזרה להופעות</a>
@@ -471,15 +346,25 @@
 </section>
   </main>
   
-  <!DOCTYPE html>
-<html lang="he" dir="rtl">
-<head>
+  
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ההופעות של יובל</title>
-</head>
-<body>
-<footer class="site-footer"><div class="footer-container"><div class="footer-grid"><div class="footer-section footer-about"><img src="/assets/business-logo.webp" alt="ההופעות של יובל" class="logo" /><p class="footer-description">המקום שלכם לחוויות בידור ותרבות בלתי נשכחות. הצטרפו אלינו להופעות מרגשות ואירועים מיוחדים.</p><div class="social-links"><a href="https://facebook.com/ytsuk" aria-label="Facebook" class="social-icon"><i class="fab fa-facebook-f"></i></a><a href="https://instagram.com/yuval_tsuk" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a><a href="https://wa.me/972544771774" aria-label="WhatsApp" class="social-icon"><i class="fab fa-whatsapp"></i></a><a href="https://youtube.com/@yuval_tsuk" aria-label="YouTube" class="social-icon" data-element-id="element-ai-1770798090492-yt8k2m" data-element-type="link"><i class="fab fa-youtube"></i></a><a href="https://tiktok.com/@yuvaltsuk8" aria-label="TikTok" class="social-icon" data-element-id="element-ai-1770798090492-tt9x3n" data-element-type="link"><i class="fab fa-tiktok"></i></a></div></div><div class="footer-section footer-links"><h3 class="footer-title">קישורים מהירים</h3><ul class="footer-menu"><li><a href="/events">אירועים</a></li><li><a href="/event">פרטי אירוע</a></li><li><a href="/contact">צור קשר</a></li></ul></div><div class="footer-section footer-contact"><h3 class="footer-title">יצירת קשר</h3><ul class="contact-list"><li><i class="fas fa-envelope"></i><a href="mailto:yuval@tsukmusic.com">yuval@tsukmusic.com</a></li><li><i class="fas fa-phone"></i><a href="tel:054-4771774">054-4771774</a></li><li><a href="/"><i class="fas fa-map-marker-alt"></i><span>כתובת החברה, GiVat Shmuel, 5405220, ישראל</span></a></li></ul></div></div><div class="footer-bottom"><div class="footer-bottom-content"><div class="legal-links"><a href="/privacy">מדיניות פרטיות</a><span class="separator">|</span><a href="/terms">תנאים והגבלות</a><span class="separator">|</span><a href="/accessibility">הצהרת נגישות</a></div><p class="copyright">© 2026 ההופעות של יובל. כל הזכויות שמורות.</p><a href="https://zappy5.com" target="_blank" class="zappy-attribution">Generated by Zappy</a></div></div></div></footer>
+
+
+<footer class="site-footer"><div class="footer-container"><div class="footer-grid"><div class="footer-section footer-about"><img src="/assets/business-logo.webp" alt="ההופעות של יובל" class="logo"><p class="footer-description">המקום שלכם לחוויות בידור ותרבות בלתי נשכחות. הצטרפו אלינו להופעות מרגשות ואירועים מיוחדים.</p><div class="social-links"><a href="https://facebook.com/ytsuk" aria-label="Facebook" class="social-icon"><i class="fab fa-facebook-f"></i></a><a href="https://instagram.com/yuval_tsuk" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a><a href="https://wa.me/972544771774" aria-label="WhatsApp" class="social-icon"><i class="fab fa-whatsapp"></i></a><a href="https://youtube.com/@yuval_tsuk" aria-label="YouTube" class="social-icon" data-element-id="element-ai-1770798090492-yt8k2m" data-element-type="link"><i class="fab fa-youtube"></i></a><a href="https://tiktok.com/@yuvaltsuk8" aria-label="TikTok" class="social-icon" data-element-id="element-ai-1770798090492-tt9x3n" data-element-type="link"><i class="fab fa-tiktok"></i></a></div></div><div class="footer-section footer-links"><h3 class="footer-title">קישורים מהירים</h3><ul class="footer-menu"><li><a href="/events">אירועים</a></li><li><a href="/event">פרטי אירוע</a></li><li><a href="/contact">צור קשר</a></li></ul></div><div class="footer-section footer-contact"><h3 class="footer-title">יצירת קשר</h3><ul class="contact-list"><li><i class="fas fa-envelope"></i><a href="mailto:yuval@tsukmusic.com">yuval@tsukmusic.com</a></li><li><i class="fas fa-phone"></i><a href="tel:054-4771774">054-4771774</a></li><li><a href="/"><i class="fas fa-map-marker-alt"></i><span>כתובת החברה, GiVat Shmuel, 5405220, ישראל</span></a></li></ul></div></div><div class="footer-bottom"><div class="footer-bottom-content"><div class="legal-links"><a href="/privacy">מדיניות פרטיות</a><span class="separator">|</span><a href="/terms">תנאים והגבלות</a><span class="separator">|</span><a href="/accessibility">הצהרת נגישות</a></div><p class="copyright">© 2026 ההופעות של יובל. כל הזכויות שמורות.</p><a href="https://zappy5.com" target="_blank" class="zappy-attribution">Generated by Zappy</a></div></div></div></footer>
+
+
+  
+  <a href="https://wa.me/972544771774" class="whatsapp-float" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  
+  <script src="/script.js"></script>
+
+    <div data-integration="accessibility:toolbar"></div>
 
     <script id="zappy-mobile-submenu-script">
     (function() {
@@ -531,14 +416,4 @@
       }, 500);
     })();
     </script>
-</body>
-</html>
-  
-  <a href="https://wa.me/972544771774" class="whatsapp-float" aria-label="WhatsApp">
-    <i class="fab fa-whatsapp"></i>
-  </a>
-  
-  <script src="/script.js"></script>
-
-    <div data-integration="accessibility:toolbar"></div>
 </body></html>
